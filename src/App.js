@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import './App.css';
-import KeyButton from './KeyButton';
-import Login from './Login';
-import PublicAddress from './PublicAddress';
+import KeyButton from './components/KeyButton';
+import Login from './components/Login';
+import PublicAddress from './components/PublicAddress';
 
 function App() {
   return (
