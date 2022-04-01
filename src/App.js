@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import KeyButton from './KeyButton';
 import Login from './Login';
+import PublicAddress from './PublicAddress';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </header>
       <KeyButton/>
       <Login/>
+      <PublicAddress/>
     </div>
   );
 }
