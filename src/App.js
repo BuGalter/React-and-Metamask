@@ -1,7 +1,8 @@
 import React from 'react';
-import KeyButton from './KeyButton';
 import logo from './logo.svg';
 import './App.css';
+import KeyButton from './KeyButton';
+import Login from './Login';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h1>Test App on React for work with metamask</h1>
       </header>
       <KeyButton/>
+      <Login/>
     </div>
   );
 }
