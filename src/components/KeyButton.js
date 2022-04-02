@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const BUTTON_TEXT = 'Get public key';
 
@@ -10,10 +10,10 @@ const styles = {
 
 function KeyButton() {
   return (
-    <div style={ styles.div }>
+    <div style={styles.div}>
       <button type="button" className="btn btn-primary">{ BUTTON_TEXT }</button>
     </div>
   );
-};
+}
 
 export default KeyButton;
